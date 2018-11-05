@@ -6,19 +6,17 @@ import CardProject from '../card/card_project'
 import CardPartner from '../card/card_partner'
 import CardContactus from '../card/card_contactus'
 
-import './content.css'
-
 class Content extends Component {
     render () {
       return (
-        <div>    
+        <main>    
           <CardWhatis></CardWhatis>
           <CardAdvantage></CardAdvantage>
           <CardBrowser></CardBrowser>
           <CardProject></CardProject>
           <CardPartner></CardPartner>
           <CardContactus></CardContactus>
-        </div>
+        </main>
       )
     }
 }
