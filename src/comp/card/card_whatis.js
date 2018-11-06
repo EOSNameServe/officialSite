@@ -9,7 +9,7 @@ class Cardwhat extends Component {
       return (
         <section className="background background_dark">
          <Row>
-          <Col span={8} offset={4}>
+          <Col md={{ span: 8, offset: 4 }}  xs={{ span: 18, offset: 2 }}>
             <div className="container">
               <div className="title">
                 什么是 ENS
@@ -32,7 +32,7 @@ class Cardwhat extends Component {
               </div>
             </div>
           </Col>
-          <Col span={8} offset={1}>
+          <Col md={{ span: 8, offset: 4 }}  xs={{ span: 18, offset: 2 }}>
             <figure className="container">
               <img className="img_whatIsENS" src={require('./../../img/whatisens.png')} alt="what is ENS"/>
             </figure>

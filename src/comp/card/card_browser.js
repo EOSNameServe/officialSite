@@ -8,7 +8,7 @@ class CardBrowser extends Component {
       return (
         <section className="background background_dark">
           <Row>
-            <Col span={12} offset={4}>
+            <Col md={{ span: 12, offset: 4 }}  xs={{ span: 18, offset: 2 }}>
               <div className="container">
                 <div className="title mb30">
                   ENS 浏览器
@@ -21,7 +21,7 @@ class CardBrowser extends Component {
                     enterButton
                     size="large"
                     onSearch={value => console.log(value)}
-                    style={{marginTop:'45px',width:'365px'}}
+                    style={{marginTop:'45px',width:'330px'}}
                   />
               </div>
             </Col>

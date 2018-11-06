@@ -8,7 +8,7 @@ class CardAdvantage extends Component {
           <div class="advantage_container">
             <div className="title text-center mb60">ENS 的优势</div>
             <Row>
-              <Col span={6} offset={4}>
+              <Col md={{ span: 6, offset: 4 }}  xs={{ span: 18, offset: 2 }}>
                 <div className="advantage_block">
                   <figure>
                     <img src={require('./../../img/advantage_img1.png')} alt=""></img>
@@ -32,7 +32,7 @@ class CardAdvantage extends Component {
                   </div>
                 </div>
               </Col>
-              <Col span={8} offset={2}>
+              <Col md={{ span: 6, offset: 2 }} xs={{ span: 18, offset: 2 }}>
                 <div className="advantage_block">
                   <figure>
                     <img src={require('./../../img/advantage_img1.png')} alt=""></img>
