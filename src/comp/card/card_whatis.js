@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'antd';
-import './../content/content.less'
 import { Input } from 'antd';
 
 const Search = Input.Search;
@@ -10,8 +9,8 @@ class Cardwhat extends Component {
       return (
         <section className="background background_dark">
          <Row>
-          <Col span={12}>
-            <div className="block">
+          <Col span={8} offset={4}>
+            <div className="container">
               <div className="title">
                 什么是 ENS
               </div>
@@ -33,10 +32,10 @@ class Cardwhat extends Component {
               </div>
             </div>
           </Col>
-          <Col span={12}>
-            <div className="block">
+          <Col span={8} offset={1}>
+            <figure className="container">
               <img className="img_whatIsENS" src={require('./../../img/whatisens.png')} alt="what is ENS"/>
-            </div>
+            </figure>
           </Col>
         </Row>
           
