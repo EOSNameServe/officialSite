@@ -69,6 +69,55 @@
         }
     }
 
+    .project{
+        &_container{
+            margin-top: 35px;
+            margin-bottom: 30px;
+            .structure{
+                padding-left: 120px;
+                .line_outer{
+                    position: relative;
+                    border: 5px solid #364F6B;
+                    border-bottom: none;
+                    width: 700px;
+                    height: 20px;
+                    .line{
+                        position: absolute;
+                        transform: translateX(-50%);
+                        left: 50%;
+                        span{
+                            display: block;
+                            margin-top: 2px;
+                            width: 4px;
+                            height: 2px;
+                            background-color: #364F6B;
+                        }
+                        
+                    }
+                }
+                .item{
+                    figure{
+                        margin-bottom: 25px;
+                        img{
+                            width: 128px;
+                        }
+                    }
+                    
+                    .title{
+                        font-size: 18px;
+                        color: #40403F;
+                        margin-bottom: 10px;
+                    }
+                    .des{
+                        font-size: 12px;
+                        color: #333333;
+                    }
+                }
+            }
+        }
+        
+    }
+
     .browser{
 
     }

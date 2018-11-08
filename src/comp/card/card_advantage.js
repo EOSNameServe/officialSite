@@ -5,7 +5,7 @@ class CardAdvantage extends Component {
     render () {
       return (
         <section className="background background_light">
-          <div class="advantage_container">
+          <div className="advantage_container">
             <div className="title text-center mb60">ENS 的优势</div>
             <Row>
               <Col md={{ span: 6, offset: 4 }}  xs={{ span: 18, offset: 2 }}>
