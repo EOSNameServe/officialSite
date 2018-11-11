@@ -6,7 +6,7 @@ const Search = Input.Search;
 class CardBrowser extends Component {
     render () {
       return (
-        <section className="background background_dark">
+        <section className="background background_dark" id="brower">
           <Row>
             <Col md={{ span: 12, offset: 4 }}  xs={{ span: 18, offset: 2 }}>
               <div className="container">

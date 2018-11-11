@@ -7,7 +7,7 @@ const Search = Input.Search;
 class Cardwhat extends Component {
     render () {
       return (
-        <section className="background background_dark">
+        <section className="background background_dark" id="whatis">
          <Row>
           <Col md={{ span: 8, offset: 4 }}  xs={{ span: 18, offset: 2 }}>
             <div className="container">
